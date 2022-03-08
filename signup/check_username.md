@@ -2,7 +2,7 @@
 
 ## 检查昵称
 
-> https://api.bilibili.com/account/username
+> https://api.oiers.org/account/username
 
 *请求方式:GET*
 
@@ -38,7 +38,7 @@
 查询昵称 test 是否被使用：
 
 ```shell
-curl -G 'https://api.bilibili.com/account/username' \
+curl -G 'https://api.oiers.org/account/username' \
 --data-urlencode 'nickName=test'
 ```
 <details>
