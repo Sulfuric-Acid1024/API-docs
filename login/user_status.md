@@ -1,7 +1,7 @@
 # 个人信息
 
 ## 获取我的信息
-> https://api.oiers.org/accout/info?client_id=&uid=
+> https://api.oiers.org/user/info?client_id=&uid=
 
 
 *请求方式：GET*
