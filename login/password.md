@@ -2,7 +2,7 @@
 
 ## 获取加密公钥及密码盐值
 
-> https://api.oiers.org/login
+> https://api.oiers.org/account/login
 
 *请求方式：GET*
 
