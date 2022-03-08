@@ -1,7 +1,7 @@
 # 账号安全
 
 ## 查询账号安全情况
-> https://api.oiers.org/accout/security?client_id=&uid=
+> https://api.oiers.org/user/security?client_id=&uid=
 
 *请求方式：GET*
 
