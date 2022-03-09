@@ -45,7 +45,7 @@
 | status | bool | 判断是否为添加 | |
 | record | str | 添加的记录类型 | |
 | value | str |记录内容|
-| added | bool |是否添加成功|
+| added | num |1为成功，0为不合法|
 
 `remove` 对象：
 | 字段        | 类型 | 内容        | 备注                       |
