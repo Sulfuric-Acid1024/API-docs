@@ -21,7 +21,6 @@
 | province     | str  | 省/州         | 非必须存在项 |
 | city         | str  | 城市          | 非必须存在项 |
 | country_en | num  | 国家/地区代码 |              |
-| country_sms | str  | 国家/地区手机号 |              |
 
 **示例：**
 ```shell
@@ -38,8 +37,7 @@ curl 'https://api.oiers.org/web-interface/zone'
     "data":{
             "addr":"2600:3c01::f03c:93ff:fe6e:ec9b",
             "country":"美国",
-            "country_code":US
-            "country_sms":+1
+            "country_code":US,
         }
 }
 ```
