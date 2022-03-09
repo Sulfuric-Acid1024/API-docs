@@ -4,7 +4,7 @@
 
 *请求方式：POST*
 
-**正文参数（ application/x-www-form-urlencoded ）：**
+**正文参数（ application/json ）：**
 | 参数名 | 类型 | 内容 |
 | --- | --- | --- |
 | Username | str | 用户名 |
@@ -37,7 +37,7 @@ curl 'http://api.oiers.org/user/signup' \
     -X POST \
     -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0' \
     -H 'Accept: application/json, text/plain, */*' \
-    -H 'Content-Type: application/x-www-form-urlencoded' \
+    -H 'Content-Type: application/json' \
     --data-raw 'Username=admin&code=562395&pwd=MSSyD2nKHaTG&jumpurl=https://dash.oiers.org&mail=test@gmail.com&plat=0'
 ```
 </details>
