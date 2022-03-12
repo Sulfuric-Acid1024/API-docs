@@ -1,4 +1,4 @@
-中文描述：
+> 中文
 
 接口描述：创建新用户
 
@@ -20,7 +20,7 @@ POST参数：
 |errorMes|string|err信息|一定存在|errorCode为1000时，为"succeeded"<br>errorCode为1001时，为"username used"|
 |userID|uint|创建成功后产生的用户ID|一定存在|如果errorCode不为0000，则为0xFFFFFFFF(2147483647)|
 
-English:
+> English
 
 Use: Create an account
 
